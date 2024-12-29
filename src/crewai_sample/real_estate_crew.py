@@ -83,7 +83,7 @@ real_estate_agent = Agent(
     backstory="""You are a real estate agent with expertise in various property types, market trends, and neighborhood dynamics.
     You excel at answering questions about properties and providing detailed, accurate information.""",
     knowledge_sources=[real_estate_knowledge],
-    llm=LLM(model="gpt-40-mini", temperature=0.0)
+    llm=LLM(model="gpt-4o-mini", temperature=0.0)
 )
 
 # Function to handle user questions dynamically

@@ -1,0 +1,17 @@
+research_task:
+  description: >
+    Conduct thorough research on {company_name}.
+    Focus on its operations, market position, competitors, and recent developments. Make sure to find any interesting and relevant information, keeping in mind that the current year is 2024.
+  expected_output: >
+    A list with 10 bullet points of the most relevant and recent information about {company_name}.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context gathered from the research and expand each topic into a full section for a report.
+    Ensure the report is detailed, covering all relevant aspects of the company, and formatted appropriately.
+  expected_output: >
+    A fully fleshed-out report with main topics, each containing a detailed section of information. 
+    The report should be formatted in markdown without '```'.
+  agent: reporting_analyst
+ 

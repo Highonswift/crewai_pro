@@ -74,7 +74,7 @@ product_analyst = Agent(
     backstory="""You are a product analyst with expertise in various product categories,
     market trends, and consumer behavior. You excel at answering questions about products and providing detailed, accurate information.""",
     knowledge_sources=[product_knowledge],
-    llm=LLM(model="gpt-40-mini", temperature=0.0)
+    llm=LLM(model="gpt-4o-mini", temperature=0.0)
 )
 
 # Function to handle user questions dynamically
